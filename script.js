@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var card=document.querySelector(".dashboard-card");if(card){window.addEventListener("mousemove",function(e){var x=(e.clientX/window.innerWidth-.5)*2;var y=(e.clientY/window.innerHeight-.5)*2;card.style.transform="rotate("+(2.5+x*1.2)+"deg) translate("+(x*3)+"px,"+(y*3)+"px)"})}});
